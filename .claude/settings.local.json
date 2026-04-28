@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Bash(npm install *)",
+      "Bash(python convert.py)",
+      "Bash(python convert.py data/20220803-185251_PhaseSpace_02_0_1.csv)",
+      "Bash(python convert.py \"data/20220803-185251_PhaseSpace_02_0_1.csv\")",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(curl -s \"http://localhost:5174/20220803-185654_PhaseSpace_02_0_13.json\")",
+      "Bash(python -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(f'{len\\(d\\)} frames, first:', d[0]\\)\")",
+      "Bash(pip install *)",
+      "Bash(pip show *)",
+      "Bash(uvicorn server:app --port 8000)",
+      "Bash(curl -s http://localhost:8000/files)",
+      "Bash(python -c \"import json,sys; p=json.load\\(sys.stdin\\); print\\(p.get\\('engines',{}\\)\\); print\\(p.get\\('scripts',{}\\)\\)\")",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
+    ]
+  }
+}
