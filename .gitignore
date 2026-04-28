@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Node
+app/node_modules/
+app/dist/
+
+# Data (potentially large / sensitive)
+data/
